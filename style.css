@@ -1,0 +1,35 @@
+body{
+    background-color:deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    width: 20rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+.image{
+    border-radius: 1rem;
+    background: url(./images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: aquamarine; */
+    height: 18rem;
+    margin: 1rem;
+}
+h3{
+    margin: 1.5rem;
+    font-family: "Outfit";
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    margin: 1rem 1.5rem;
+    margin-bottom: 3rem;
+    font-family: "Outfit";
+    font-weight: 400;
+    text-align: center;
+}
